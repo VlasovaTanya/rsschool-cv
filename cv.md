@@ -1,5 +1,4 @@
 *Vlasova Tanya*
-![alt text](E:\rsschool\foto.jpg#alignleft"title")
 # Vlasova Tanya
 ## My Contact Info:
 + **Phone:**  +375444534005
