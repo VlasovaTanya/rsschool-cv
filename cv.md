@@ -25,6 +25,11 @@ I have an inquiring mind and a desire to develop.
 - VSCode
 
 ## Code Examples
+``` JavaScript
+function multiply(a, b){
+  return a * b
+}
+```
 
 ## Education
 + *Belarusian State University of Technology*
