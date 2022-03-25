@@ -1,1 +1,1 @@
-# rsschool-cv
+https://vlasovatanya.github.io/rsschool-cv/cv
