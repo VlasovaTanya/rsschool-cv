@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth; 
+    background-color: #a8a9af;
   }
   
   body{
@@ -9,25 +10,30 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    min-height: 100vh;
+    min-height: 150vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 16px;
+    
   }
   
   .header{
-    background-color: rgb(107, 231, 190);
-    padding: 30px 0;
+    background-color: rgb(224, 188, 209);
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    -webkit-text-fill-color: rgb(73, 78, 83);
   }
   
   
   .presentation{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+    flex-direction:row;
+    justify-content: flex-start;
+    }
   
-  .photo{
-    border-radius: 60%;
+  .foto{
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
   .about{
@@ -35,13 +41,12 @@ html {
   }
   
   .name{
-    padding-bottom: 50px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold italic;
   }
   
-  .profession{
-    font-size: 30px;
+  .prof{
+    font-size: 25px;
   }
   
   .wrapper{
@@ -51,14 +56,14 @@ html {
   
   .container{
     float: left;
-    width: 40%;
+    width: 45%;
     margin: 50px;
   }
   
   .case{
     padding: 50px;
     width: 60%;
-    background: #8f8a8a;
+    background: rgb(224, 188, 209);
   }
   
   .title{
@@ -70,11 +75,14 @@ html {
   .education,
   .languages{
     margin-bottom: 50px;
+    background-color: #eba6c1;
+    color:#1d556b
+    
   }
   
   .list{
     line-height: 2;
-    color: #3f228f;
+    color: #1a556d; 
   }
   
   .speciality{
@@ -82,21 +90,17 @@ html {
     font-style: italic;
   }
   
-  .experience{
-    line-height: 2;
-  }
-  
   .example{
     padding-top: 50px;
   }
   
   .code{
-    background: #EBEBEB;
-    color: #ca1111;
+    background: #b3aaaa;
+    color: #3713da;
   }
   
   .function{
-    color: #c5e456;
+    color: #121310;
   }
   
   .connection{
@@ -113,10 +117,9 @@ html {
     list-style: none;
   }
   
-  
-  
+ 
   .footer{
-    background: #a7a79d;
+    background: #3189ac;
   }
   
  
